@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="htmform.css">
+    <title>Form Example</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading-container">
+            <h1>Registeration form</h1>
+        </div>
+
+        <div class="form-container">
+            <form action="">
+
+                <!-- first Name -->
+                <div class="form-group">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+
+                <!-- last Name -->
+                <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+
+                <!-- data of birth -->
+                <div>
+                    <label for="dob">Date Of Birth</label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+
+                <!-- gander -->
+                <div class="form-group">
+                    <label for="">Gender</label>
+                    <div>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="gender" id="others" value="others">
+                        <label for="others">Others</label>
+                    </div>
+                </div>
+
+                <!-- languages -->
+
+                <div class="form-group">
+                    <label for="">Languages</label>
+                    <div>
+                        <input type="checkbox" name="hindi" id="hindi" value="hindi">
+                        <label for="hindi">Hindi</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="marathi" id="marathi" value="marathi">
+                        <label for="marathi">Marathi</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="English" id="English" value="English">
+                        <label for="English">English</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="Tamil" id="Tamil" value="Tamil">
+                        <label for="Tamil">Tamil</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="Gujrati" id="Gujrati" value="Gujrati">
+                        <label for="Gujrati">Gujrati</label>
+                    </div>
+
+                </div>
+
+                <!-- email -->
+                <div class="form-group">
+                    <label for="email">Email-ID</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <!-- contact n0 -->
+                <div class="form-group">
+                    <label for="">Contact No</label>
+                    <div>
+                        <input type="number" name="" id="" value="+91" size="2">
+                        <input type="number" name="contact" id="contact">
+                    </div>
+                </div>
+
+                <!-- state option -->
+                <div class="form-group">
+                    <label for="">Select States</label>
+                    <div>
+                        <select name="" id="">
+                            <option value="#" disabled>Select State</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Gujarat">Gujrat</option>
+                            <option value="Kerala">Kerala</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Uttarpradesh">Uttarpradesh</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <!-- upload image -->
+                <div class="form-group">
+                    <label for="">Upload your profile picture</label>
+
+                    <div>
+                        <input type="file" name="image">
+
+                    </div>
+
+                </div>
+
+                <!-- Address -->
+
+                <div class="form-group">
+                    <label for="">Address</label>
+                    <div>
+                        <textarea name="Address" id="Address" cols="50" rows="10"> Enter Address </textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" id="submit">Submit</button>
+                    <input type="reset" name="" id="reset">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
